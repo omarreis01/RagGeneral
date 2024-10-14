@@ -760,7 +760,7 @@ if WITH_TAB:
             gr.Textbox(label="Kaynak"),  # Use Markdown for clickable links
             #gr.Textbox(label="Sayfa numarası")
         ],
-        title="Ziraat Assistant'a Sor"
+        title="Assistant'a Sor"
     )
 
     # Interface 2: Excel file upload for question-answer processing
