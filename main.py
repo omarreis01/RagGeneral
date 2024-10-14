@@ -66,8 +66,8 @@ bedrock_client = boto3.client("bedrock-runtime",
 #amazon.titan-embed-text-v2:0
 bedrock_embeddings = BedrockEmbeddings(model_id="amazon.titan-embed-text-v2:0", client=bedrock_client) 
 
-#model_id = "anthropic.claude-3-5-sonnet-20240620-v1:0"
-model_id = "meta.llama3-1-405b-instruct-v1:0" 
+model_id = "anthropic.claude-3-5-sonnet-20240620-v1:0"
+#model_id = "meta.llama3-1-405b-instruct-v1:0" 
 
 def get_embedding(text):
     # Use the BedrockEmbeddings model to generate the embedding
